@@ -1,0 +1,68 @@
+<html>
+
+<head>
+
+</head>
+
+
+<body>
+<p align="center">
+<font face="verdana" size=3><b>The Technical University of Cluj-Napoca(TUCN)</font></b><br>
+<img src="imgs/logo.png" alt="TUCN logo"></img>
+</p>
+
+
+<p><b> Insert the data: </b></p>
+
+<form method=POST action="memberinsert.php">
+<table style="width:45%" border="0">
+<tr>
+<td width="30%" align="left"  valign="center" >Name &nbsp</td>
+<td align="left"  valign="center" ><input type=text name="name"></input></td>
+<td><a href="memberdisplay.php" target="right_frame">Display</a></td>
+</tr>
+
+<tr>
+<td>Surname &nbsp</td>
+<td><input type=text name="surname"></input></td>
+</tr>
+
+
+<tr>
+<td width="40%" align="left"  valign="center" >Year of Study</td>
+<td align="left"  valign="center" ><input type="radio" name="yearofstudy" value="1" checked>1</input>
+               <input type="radio" name="yearofstudy" value="2">2</input>
+			   <input type="radio" name="yearofstudy" value="3">3</input>
+			   <input type="radio" name="yearofstudy" value="4">4</input><br></td>
+</tr>
+
+<tr>
+<td>Generation ID: </td>
+<td><input type="text" name="generationid"></input></td>
+<td><a href="GenerationDisplay.php" target="right_frame">Display</a></td>
+</tr>
+
+<tr>
+<td>Status ID: </td>
+<td><input type="text" name="statusid"></input></td>
+<td><a href="StatusDisplay.php" target="right_frame">Display</a><br></td>
+</tr>
+
+<tr>
+<td>Coreteam ID:</td> 
+<td><input type="text" name="ctid"></input></td>
+<td><a href="coreteamdisplay.php" target="right_frame">Display</a><br></td>
+</tr>
+
+<tr>
+<td>Coreteam Role ID</td>
+<td><input type="text" name="ctroleid"></input></td>
+<td><a href="CTRoleDisplay.php" target="right_frame">Display</a><br></td>
+</tr>
+</table>
+<br>
+<input type="submit" name="OK" value="OK"></input>
+</form>
+
+</body>
+</html>
